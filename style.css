@@ -534,7 +534,7 @@ margin-left: 100px;
 margin-left:500px;
 }
 }
-
+/* 
 @media(max-width: 529px) and (min-width: 320px) {
 .nav-bar .container{
 display:flex;
@@ -569,15 +569,15 @@ text-align: center;
 .bg,
 .bcg1{
 width: auto ;  /*max-content*/
-}
+/* }
 .wrapper{
 height: 400vw;
 }
 .startup{
 width: auto;
 margin-left: 138px;
-}
-.c4 {width:700px;
+} */
+/* .c4 {width:700px;
 margin-bottom: 50px;
 text-align: center;
 font-weight: 300;
@@ -633,8 +633,8 @@ flex-direction: column;
 .line2{
 width: 400px;
 position:absolute;
-}
-.line1{
+} */
+/* .line1{
 margin-top: 0px;
 width: 400px;
 position:absolute;
@@ -659,9 +659,8 @@ padding-bottom: 5px;
 } 
 .msg{
 margin-left:250px;}
+} */ */
 
-
-}
 /* @media(max-width: 768px){
 
 div #content{ 
