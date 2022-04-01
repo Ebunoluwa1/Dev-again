@@ -436,6 +436,7 @@ justify-content: space-between;
 
 
 @media(max-width: 993px) and (min-width:529px){
+
 .nav-bar .container{
 display:flex;
 flex: 0 1 0;
@@ -449,7 +450,7 @@ margin-bottom: 50px;
 }
 
 .show{
-width: max-content;
+width: auto;
 
 }
 p.show-txt{
@@ -459,10 +460,11 @@ text-align: center;
 }
 .bg,
 .bcg1{
-width:max-content;
+width:auto;
 }
 .wrapper{
-height: 400vw;
+width: 870px;
+height:1000px;
 }
 .startup{
 width: max-content;
@@ -474,7 +476,15 @@ font-weight: 300;
 font-size:29px;
 }
 .notes .container{ 
-display: block;
+display: flex;
+}
+.n2{
+    padding-left: -160px;
+    margin-left: -270px;
+}
+.n1,.n2{
+   width:400px;
+   
 }
 .n3{
 display: none;
@@ -483,15 +493,21 @@ display: none;
 .images,.image-container{
 margin-bottom: 50px;
 display: flex;
-flex: 0 1 0;
+margin-left: 50px;
 margin-top: 2320px;
+}
+
+.I7,
+.I8,
+.I9{
+    display: none;
 }
 .buttonC{
 padding-top:100px;
 }
 .culture .container {
 flex-direction: column;
-margin-right: -400px;
+margin-right: -200px;
 align-items: center;
 padding-top: 50px;
 
@@ -504,14 +520,16 @@ width:700px;
 margin-left: -50px;
 margin-top: 40px;
 }
+.img3{display:none;}
 
 .footer{
-    width:auto;
-    flex-direction: column;
+    width: 1350px;
 }
 
+
 .line2,.line1{
-width: 600px;
+   
+width: 700px;
 position:absolute;
 }
 
@@ -528,20 +546,22 @@ gap:2px;
 margin-left:0px;
 }
 .media,.handles{
-margin-left: 100px;
+margin-left: 200px;
 }
 .msg{
-margin-left:500px;
+margin-left:700px;
 }
 }
-/* 
+ 
 @media(max-width: 529px) and (min-width: 320px) {
-.nav-bar .container{
-display:flex;
-flex: 0 1 0;
-}
+
+    .nav-bar .container{
+        display: flex;
+        justify-content:space-between;
+       flex: auto;
+            }
 #content .container{
-    width:550px;
+    width:750px;
     font-size: 44px;
     min-height: 20px;
 }
@@ -550,17 +570,19 @@ flex: 0 1 0;
 }
 .partners .container{
 margin:auto;
-margin-top: 150px;
-overflow: hidden;
+margin-top: 50px;
 }
 .partner{
-margin-bottom: 50px;
+margin-bottom: 25px;
 }
-
+.Firstimg,
+.Secondimg{
+    display: none;
+}
 .show{
-width: auto;
-
+width: 2200px;
 }
+
 p.show-txt{
 margin-top: 100px;
 padding-top: 100px;
@@ -568,16 +590,20 @@ text-align: center;
 }
 .bg,
 .bcg1{
-width: auto ;  /*max-content*/
-/* }
+width: 600px ;  /*max-content*/
+}
 .wrapper{
 height: 400vw;
 }
 .startup{
 width: auto;
 margin-left: 138px;
-} */
-/* .c4 {width:700px;
+} 
+.startImage{
+    width:2000px;
+    height:600px;
+}
+ .c4 {width:700px;
 margin-bottom: 50px;
 text-align: center;
 font-weight: 300;
@@ -588,13 +614,22 @@ width: 500px
 }
 .notes .container{ 
 display: block;
-height:200px;
+height:250px;
 }
+.n1{
+    width:800px;
+    font-size: 32px;
+    padding-left: 60px;
+    margin-left: 70px;
+ }
 .n3, 
 .n2{
 display: none;
 }
-
+.works{
+    margin-top: 50px;
+    padding-top: 20px;
+}
 .work .container{
 margin-top: 300px;
 margin-bottom: 50px;
@@ -611,13 +646,13 @@ padding-top:100px;
 }
 .culture .container {
 flex-direction: column;
-margin-right: -400px;
+margin-right: -600px;
 align-items: center;
 padding-top: 50px;
+ }
 
-}
 .p2{
-font-size: 28px;
+font-size: 38px;
 width:700px;
 }
 .cultureImage{ 
@@ -626,17 +661,17 @@ margin-top: 40px;
 }
 
 .footer{
-width:auto;
+    width: 1350px;
 flex-direction: column;
 }
 
 .line2{
-width: 400px;
+width: 900px;
 position:absolute;
-} */
-/* .line1{
-margin-top: 0px;
-width: 400px;
+} 
+ .line1{
+margin-top: 30px;
+width: 900px;
 position:absolute;
 }
 
@@ -658,8 +693,8 @@ margin-left:0px;
 padding-bottom: 5px;
 } 
 .msg{
-margin-left:250px;}
-} */ */
+margin-left:750px;}
+} 
 
 /* @media(max-width: 768px){
 
